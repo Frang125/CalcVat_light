@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <link rel="manifest" href="manifest.json" />
      
 <style>
@@ -25,9 +27,11 @@ input[type=number] {
 
     
 </head>
-<body>
+<body  style="width: auto;">
 
-    <p style="font-family: roboto;">CalcVat light <select id="lang" onclick="chl()">
+    <p style="font-family: roboto;">CalcVat light <select id="lang" onclick="chl()" style="
+        
+        float: right;">
         <option value="1">English</option>
         <option value="2">Italiano</option>
         
@@ -36,10 +40,10 @@ input[type=number] {
         
     </select> </p>
    
-    
+    <hr>
 
     
-    <div>
+    <div style="text-align:center;vertical-align: middle">
          <p id="ip" style="font-family: roboto;">Enter price:</p>
         
             <input type="number" id="input1" style="width:120px">       
