@@ -37,7 +37,7 @@ document.getElementById("ri").innerHTML =calcolo2;
 }else{
 var prezzo=Number(input1);
 var iva=Number(input2);
-document.getElementById("prezzo").innerHTML="prezzo netto:";
+
     if(input2=='22'){
    var imp=prezzo/1.22;
    var ivar=prezzo-imp;
@@ -104,6 +104,7 @@ document.getElementById("ipv").innerHTML="Enter VAT percentage:"
 document.getElementById("button").innerHTML="Calculate"
 document.getElementById("ris").innerHTML="Result"
 document.getElementById("prezzo").innerHTML="Price:"
+
 } 
 if(lang=="2"){
   
