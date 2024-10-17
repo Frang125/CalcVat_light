@@ -1,10 +1,22 @@
+var input0= document.getElementById("input1");
+var invalidChars = [
+  "-",
+  "+",
+  "e",
+];
+
+input0.addEventListener("keydown", function(e) {
+  if (invalidChars.includes(e.key)) {
+    e.preventDefault();
+  }
+});
 function messico(){
     var input1= document.getElementById("input1").value;
     
     var input2=document.getElementById("input2").value;
               
      var valore=document.getElementById("select1").value;
-     
+   
 if(valore=="1"){
 var calcolo=parseInt(input1)*parseInt(input2);
 var calcolo2=calcolo/100;

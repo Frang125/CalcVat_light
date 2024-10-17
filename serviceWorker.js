@@ -4,6 +4,7 @@ const assets = [
     "/index.html",
     "/manifest.json",
     "/index.js",
+    "/Roboto-Regular.ttf",
    
   ]
 

@@ -4,14 +4,30 @@
 
     
     <link rel="manifest" href="manifest.json" />
- 
- </style>
+      
+<style>
+@font-face {
+    font-family: roboto;
+    src: url("Roboto-Regular.ttf");
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+</style>
 
     
 </head>
 <body>
 
-    <p>CalcVat light <select id="lang" onclick="chl()" style="position:absolute;
+    <p style="font-family: roboto;">CalcVat light <select id="lang" onclick="chl()" style="position:absolute;
         
         right:1px;">
         <option value="1">English</option>
@@ -26,7 +42,7 @@
 
     
     <div style="text-align:center;vertical-align: middle">
-         <p id="ip">Enter price:</p>
+         <p id="ip" style="font-family: roboto;">Enter price:</p>
         
             <input type="number" id="input1" style="width:120px">       
           
@@ -44,7 +60,7 @@
   
 
             
-         <p style="text-align:center; vertical-align: middle;" id="ipv">Enter Vat percentage:</p>
+         <p style="text-align:center; vertical-align: middle;font-family: roboto;" id="ipv">Enter Vat percentage:</p>
                   <select id="input2">
           <option value="22">22%</option>
           <option value="10">10%</option>
@@ -58,12 +74,12 @@
   
              <p></p>
              
-             <button onclick="messico()" id="button"type="button">Calculate</button>
+             <button onclick="messico()" id="button"type="button" style="font-family: roboto;">Calculate</button>
              
-         <p id="ris" style="text-decoration: underline">Result</p>
-         <p id="prezzo">Price:</p>          
+         <p id="ris" style="text-decoration: underline; font-family: roboto;">Result</p>
+         <p id="prezzo" style="font-family: roboto;">Price:</p>          
          <p id="rop">0</p>
-     <p id="iva">VAT:</p>
+     <p id="iva" style="font-family: roboto;">VAT:</p>
           
          <p id="ri">0</p>
         
