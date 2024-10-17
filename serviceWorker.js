@@ -5,6 +5,7 @@ const assets = [
     "/manifest.json",
     "/index.js",
     "/Roboto-Regular.ttf",
+    "/Roboto-ThinItalic.ttf"
    
   ]
 
