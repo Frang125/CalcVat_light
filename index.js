@@ -10,6 +10,16 @@ input0.addEventListener("keydown", function(e) {
     e.preventDefault();
   }
 });
+
+
+
+input0.addEventListener("keypress", function(event) {
+if (event.key === "Enter") {
+event.preventDefault();
+messico();
+}
+});
+
 function messico(){
     var input1= document.getElementById("input1").value;
     
