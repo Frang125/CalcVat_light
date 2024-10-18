@@ -1,10 +1,24 @@
 {
-    "short_name": "CalcVat light",
-    "name": "CalcVat light",
-    "icons": [
-        
-      ],
-    "start_url": "index.html",
-    "display": "fullscreen"
-    
-  }
+  "short_name": "CalcVat light",
+  "name": "CalcVat light",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "id": "CalcVat-light",
+  "description": "A simple and lightweight open-source VAT calculator",
+  "orientation": "portrait",
+  "dir": "auto",
+  "lang": "en",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.frang125.calciva&amp;hl=it",
+      "id": ""
+    }
+  ],
+  "categories": [
+    "finance",
+    "productivity"
+  ]
+}
