@@ -34,7 +34,7 @@ input[type=number] {
 </head>
 <body>
 
-    <p style="font-family: roboto;">CalcVat <span style="font-family: robotol;">light</span> <select onchange="chl()" id="lang"  aria-labelledby="Select a Language"      style="
+    <p style="font-family: roboto;">CalcVat <span style="font-family: robotol;">light</span> <select onchange="chl()" id="lang"  aria-labelledby="lang"      style="
         
         float: right;">
         <option value="1">English</option>
@@ -51,11 +51,11 @@ input[type=number] {
     <div style="text-align:center;vertical-align: middle">
          <p id="ip" style="font-family: roboto;">Enter price:</p>
         
-            <input type="number" id="input1" aria-labelledby="Insert Price" style="width:120px">       
+            <input type="number" id="input1" aria-labelledby="input1" style="width:120px">       
           
            
              
-      <select id="select1" aria-labelledby="Select VAT calculation method">
+      <select id="select1" aria-labelledby="select1">
           <option id="av" value="1">Add VAT</option>
           <option id="rv" value="2">Subtract VAT</option>
           
@@ -68,7 +68,7 @@ input[type=number] {
 
             
          <p style="text-align:center; vertical-align: middle;font-family: roboto;" id="ipv">Enter Vat percentage:</p>
-                  <select id="input2" aria-labelledby="Select Vat percentage">
+                  <select id="input2" aria-labelledby="input2">
           <option value="22">22%</option>
           <option value="10">10%</option>
           <option value="5">5%</option>
