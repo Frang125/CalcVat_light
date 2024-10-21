@@ -123,7 +123,7 @@ if(lang=="2"){
 
  }
 
- if ("serviceWorker" in navigator) {
+ if ("sw" in navigator) {
     window.addEventListener("load", function() {
       navigator.serviceWorker
         .register("sw.js")
